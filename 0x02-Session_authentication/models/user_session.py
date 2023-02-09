@@ -2,10 +2,14 @@
 
 """ UserSession module.
 """
+
 from models.base import Base
+
+
 class UserSession(Base):
     """ UserSession class.
     """
+
     def __init__(self, *args: list, **kwargs: dict):
         """ Constructor.
         """
